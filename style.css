@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #2D033B;
+}
+
+a{
+    text-decoration: none;
+    color: whitesmoke
+}
+
+.video-player{
+    background-color: black;
+    width:100%;
+    /* height: 500px; */
+    /* max-height: 800px; */
+    transform: translateY(20%);
+    z-index: -10;
+    /* overflow: hidden; */
+    /* border: 5px solid ; */
+
+    margin: auto;
+    box-shadow: 80px 80px 100px rgba(6, 6, 7, 0.5);
+    padding: 3px;
+    border-radius: 10px;
+    border-color: #810CA8;
+    border-style: solid;
+    overflow: hidden;
+}
+
+video{
+    /* overflow: hidden; */
+    width: 100%;
+    height: 700px;
+    z-index: -10;
+}
+
+
+/* button{
+    background-color: red;
+    color: blue;
+} */
+
+.google-btn{
+    cursor: pointer;
+}
+
+.topRightBtn{
+    position: absolute;
+    transform: translate(860%,-1800%);
+    display: none;
+    z-index: 999;
+}
+
+.link-btn{
+    position: absolute;
+    /* bottom:-20%;
+    left:22%; */
+    bottom:15%;
+    left:25%;
+    /* height: 100px; */
+    /* background-color: red; */
+    display: none;
+    transition: opacity 2s ease-in-out;
+}
+
+.videoFirst-btn, .videoSecond-btn{
+    cursor: pointer;
+    margin: auto 40px;
+    width: 250px;
+    height: 80px;
+    border-radius: 4px;
+    border: 2px solid #d2bdff;
+    font-family: "Roboto", sans-serif;
+    color: #d2bdff;
+    background-color: transparent;
+}
